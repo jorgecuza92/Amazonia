@@ -48,3 +48,50 @@
   color: #f4f4f4;
   border-color: #0a0202 #171417 #174517 !important;
 }
+
+@media(max-width: 1232px) {
+  .product {
+    width: 360px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .product {
+    width: 330px;
+  }
+}
+
+@media(max-width: 1014px) {
+  .product {
+    width: 300px;
+  }
+}
+
+@media(max-width: 953px) {
+  .product {
+    width: 400px;
+  }
+}
+
+@media(max-width: 830px) {
+  .product {
+    width: 350px;
+  }
+}
+@media(max-width: 720px) {
+  .product {
+    width: 450px;
+  }
+}
+
+@media(max-width: 500px) {
+  .product {
+    width: 350px;
+  }
+}
+@media(max-width: 400px) {
+  .product {
+    width: 300px;
+  }
+}
+

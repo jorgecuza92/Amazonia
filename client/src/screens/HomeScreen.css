@@ -24,12 +24,12 @@
   }
 }
 
-@media (max-width: 936px) {
+@media (max-width: 953px) {
   .homescreen__products {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 624px) {
+@media (max-width: 720px) {
   .homescreen__products {
     grid-template-columns: repeat(1, 1fr);
   }
