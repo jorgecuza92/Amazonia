@@ -53,6 +53,15 @@ const products = [
     price: 140,
     countInStock: 10,
   },
+  {
+    name: "Teenage Engineering OP-1",
+    imageUrl:
+      "https://images.unsplash.com/photo-1560849915-481da5066045?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+    description: 
+      "good synth",
+      price: 1299,
+      countInStock: 1,
+  },
 ];
 
 module.exports = products;

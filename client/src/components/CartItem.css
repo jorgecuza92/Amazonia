@@ -25,7 +25,7 @@
 
 .cartItem__deleteBtn {
   padding: 10px 17px;
-  color: red;
+  color: #e6941a;
   background: #f4f4f4;
   border: 1px solid #171717;
   cursor: pointer;

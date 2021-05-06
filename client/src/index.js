@@ -6,7 +6,10 @@ import reportWebVitals from './reportWebVitals';
 
 import { Provider } from 'react-redux';
 import store from './redux/store';
+import { setAuthenticationHeader } from './utils/authenticate'
 
+const token = localStorage.getItem
+setAuthenticationHeader(token)
 
 ReactDOM.render(
   <Provider store={store}>
