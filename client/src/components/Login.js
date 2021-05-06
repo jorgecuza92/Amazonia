@@ -50,7 +50,8 @@ function Login(props) {
   return (
     <div> 
 <div class='loginBox'>
-    <h1>Login</h1>
+    <img src='https://teenage.engineering/_img/57f4ba6d77768c0300d9cfce_512.png' />
+    {/* <h1>Login</h1> */}
     <div class='logoContainer'>
     </div>
     <div class='textbox'>

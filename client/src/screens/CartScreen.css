@@ -1,7 +1,17 @@
+
 .cartscreen {
   display: flex;
   max-width: 1300px;
   margin: 2rem auto;
+}
+
+.proceedBtn {
+  text-decoration: none !important;
+  color: black
+}
+
+.proceedNav {
+  text-decoration: none;
 }
 
 .cartscreen h2 {

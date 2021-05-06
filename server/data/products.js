@@ -58,9 +58,18 @@ const products = [
     imageUrl:
       "https://images.unsplash.com/photo-1560849915-481da5066045?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
     description: 
-      "good synth",
+      "OP-1 is the all-in-one portable synthesizer, sampler and controller. with additional features like a built-in FM radio and an assignable G-force sensor for motion controlled effects, there is nothing quite like it.",
       price: 1299,
       countInStock: 1,
+  },
+  {
+    name: "Teenage Engineering OP-Z",
+    imageUrl:
+      "https://images.prismic.io/teenageengineering/709b41ab-a758-4188-9f69-eb471fcfe22a_1x1-OPZ1-01.jpg?auto=compress,format&w=4096&h=1",
+    description: 
+      "OP–Z is a portable 16-track multimedia synthesizer and sequencer with a range of sample based and synthesis based sounds. the world's first stand-alone sequencer of its kind that lets you sequence music, visuals, lights and more. iOS and android companion app available.",
+      price: 599,
+      countInStock: 12,
   },
 ];
 

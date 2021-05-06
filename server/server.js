@@ -60,4 +60,33 @@ app.get("/:username", authenticate, (req, res) => {
   res.json(userCartItems)
 });
 
+
+// STRIPE PAYMENT
+app.post('/payment', cors(), async (req, res) => {
+  let {amount, id} = req.body
+  try {
+    const payment = await stripe.paymentIntents.create({
+      amount, 
+      currency: "USD",
+      description: "Teenage Engineering Co.",
+      payment_method: id,
+      confirm: true
+    })
+
+    console.log("Payment", payment)
+    res.json({
+      message: "Payment successful",
+      success: true
+    })
+
+
+  } catch (error) {
+    console.log("Error", error)
+    res.json({
+      message: "Payment failed",
+      success: false
+    })
+  }
+})
+
 app.listen(PORT, () => console.log("Server is running..."));

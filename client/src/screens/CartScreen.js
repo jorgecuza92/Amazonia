@@ -2,6 +2,7 @@ import "./CartScreen.css";
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import {NavLink} from 'react-router-dom'
 
 // Components
 import CartItem from "../components/CartItem";
@@ -63,7 +64,7 @@ const CartScreen = () => {
             <p>${getCartSubTotal()}</p>
           </div>
           <div>
-            <button>Proceed To Checkout</button>
+            <NavLink className='proceedNav' to='/checkout'><button className='proceedBtn'>Proceed To Checkout</button></NavLink>
           </div>
         </div>
       </div>
