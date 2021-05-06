@@ -71,6 +71,11 @@ body {
   
 }
 
+.btn:hover {
+  background:rgba(0, 0, 0, 0.63);
+  /* border: 1px solid rgba(0, 0, 0, 0.63); */
+}
+
 .logoBrewster {
   height: 60%;
   width: 60%;
